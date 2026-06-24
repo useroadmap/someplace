@@ -35,6 +35,11 @@ def _hex(h):
     h = h.lstrip("#")
     return tuple(int(h[i:i + 2], 16) for i in (0, 2, 4))
 
+
+def _mix(a, b, t):
+    """Blend colour a→b by t (0..1)."""
+    return tuple(int(a[i] * (1 - t) + b[i] * t) for i in range(3))
+
 PALETTES = {
     # Default house colors, exactly as specified per print.
     "core": {
@@ -130,57 +135,55 @@ def print_sun(p, seed=7):
 
 
 def print_palm(p, seed=11):
-    """Olive fronds + small tangerine sun discs on bone."""
-    random.seed(seed)
+    """Large overlapping banana/palm leaves (lanceolate silhouettes with
+    midrib + veins) in two tonal greens on bone — luxe resort botanical."""
     img, d = _new_tile(p["bone"])
     s = SS
-
-    def draw_frond(dr, cx, cy, ang, length):
-        # central stem (gently bowed)
-        stem_w = max(3, int(length * 0.035))
-        pts = []
-        for i in range(21):
-            t = i / 20
-            bow = math.sin(t * math.pi) * length * 0.10
-            sx = cx + math.cos(ang) * length * t + math.cos(ang + math.pi / 2) * bow
-            sy = cy + math.sin(ang) * length * t + math.sin(ang + math.pi / 2) * bow
-            pts.append((sx, sy))
-        dr.line(pts, fill=p["olive"], width=stem_w, joint="curve")
-        # leaflets along the stem, shrinking toward the tip
-        n = 14
-        for i in range(1, n + 1):
-            t = i / (n + 1)
-            bow = math.sin(t * math.pi) * length * 0.10
-            px = cx + math.cos(ang) * length * t + math.cos(ang + math.pi / 2) * bow
-            py = cy + math.sin(ang) * length * t + math.sin(ang + math.pi / 2) * bow
-            leaf = length * 0.40 * (1 - t * 0.6)
-            for side in (-1, 1):
-                la = ang + side * math.radians(48) - (1 - t) * 0.25 * side
-                lx = px + math.cos(la) * leaf
-                ly = py + math.sin(la) * leaf
-                dr.line([px, py, lx, ly], fill=p["olive"],
-                        width=max(2, int(stem_w * 0.85)))
-
-    def draw_disc(dr, cx, cy, r):
-        dr.ellipse([cx - r, cy - r, cx + r, cy + r], fill=p["tang"])
-
     full = TILE * s
-    fronds = [
-        (full * 0.16, full * 0.26, math.radians(-58), full * 0.34),
-        (full * 0.62, full * 0.20, math.radians(-118), full * 0.32),
-        (full * 0.38, full * 0.80, math.radians(58), full * 0.34),
-        (full * 0.88, full * 0.74, math.radians(122), full * 0.30),
-        (full * 0.05, full * 0.92, math.radians(-22), full * 0.28),
-        (full * 0.96, full * 0.10, math.radians(150), full * 0.26),
-    ]
-    for (x, y, a, l) in fronds:
-        wrapped(draw_frond, x, y, full, d, a, l)
-    discs = [(full * 0.50, full * 0.14, full * 0.05),
-             (full * 0.10, full * 0.60, full * 0.04),
-             (full * 0.80, full * 0.44, full * 0.055),
-             (full * 0.34, full * 0.50, full * 0.032)]
-    for (x, y, r) in discs:
-        wrapped(draw_disc, x, y, full, d, r)
+    dark = _mix(p["olive"], p["ink"], 0.40)
+    mid = p["olive"]
+
+    def leaf(dr, cx, cy, ang, length, width, fill, vein):
+        ux, uy = math.cos(ang), math.sin(ang)
+        px, py = -uy, ux
+        spine = []
+        left, right = [], []
+        for i in range(33):
+            t = i / 32
+            bow = math.sin(t * math.pi) * length * 0.10
+            sx = cx + ux * length * t + px * bow
+            sy = cy + uy * length * t + py * bow
+            spine.append((sx, sy))
+            w = width * (math.sin(math.pi * t) ** 0.62)
+            left.append((sx + px * w, sy + py * w))
+            right.append((sx - px * w, sy - py * w))
+        dr.polygon(left + right[::-1], fill=fill)
+        # midrib
+        dr.line(spine, fill=vein, width=max(2, int(length * 0.012)), joint="curve")
+        # lateral veins
+        for i in range(4, 30, 3):
+            t = i / 32
+            sx, sy = spine[i]
+            w = width * (math.sin(math.pi * t) ** 0.62)
+            for side in (1, -1):
+                va = ang + side * math.radians(38)
+                ex = sx + math.cos(va) * w * 0.92
+                ey = sy + math.sin(va) * w * 0.92
+                dr.line([sx, sy, ex, ey], fill=vein, width=max(1, int(length * 0.006)))
+
+    # back layer (darker) then front layer (olive) — overlapping, sparse
+    for x, y, a, l, w in [(0.22, 0.20, 118, 0.74, 0.16),
+                          (0.82, 0.66, -52, 0.72, 0.16),
+                          (0.55, 0.95, -120, 0.6, 0.14),
+                          (0.02, 0.78, 20, 0.58, 0.13)]:
+        wrapped(leaf, full * x, full * y, full, d,
+                math.radians(a), full * l, full * w, dark, _mix(dark, p["ink"], 0.3))
+    for x, y, a, l, w in [(0.36, 0.30, 132, 0.66, 0.15),
+                          (0.70, 0.52, -40, 0.64, 0.15),
+                          (0.10, 0.50, 8, 0.5, 0.12),
+                          (0.92, 0.12, -150, 0.52, 0.12)]:
+        wrapped(leaf, full * x, full * y, full, d,
+                math.radians(a), full * l, full * w, mid, _mix(mid, p["ink"], 0.32))
     return _finish(img)
 
 
