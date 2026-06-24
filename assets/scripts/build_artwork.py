@@ -65,12 +65,52 @@ PRODUCTS = [
 ]
 
 
+# Short on-brand hook per product (refined later; designs iterate first).
+HOOKS = {
+    "resort-shirt":"The flagship. A camp-collar shirt cut for long golden hours and longer dinners.",
+    "linen-shirt":"An easy open-collar shirt with a soft textured hand — the one you live in off-duty.",
+    "camp-shirt":"A boxy camp-collar shirt with a graphic tiled print. Equal parts pool and plaza.",
+    "beach-dress":"A breezy t-shirt dress that moves from sand to street without a second thought.",
+    "skater-dress":"A fit-and-flare dress with a painterly all-over print. Made for spinning.",
+    "bodycon":"A second-skin dress in a sunlit all-over print. Quietly devastating.",
+    "skater-skirt":"A flippy awning-striped skirt that does all the talking.",
+    "beach-tank-w":"A relaxed tank in a layered botanical. Throw it on, walk out.",
+    "one-piece":"A sculpted one-piece in a radiant sun print. Built to be seen.",
+    "hw-bikini-top":"A padded high-waist set top in a watery all-over print.",
+    "hw-bikini-btm":"High-waisted, high-confidence — the matching bottom.",
+    "string-bikini-top":"A padded string top speckled in terrazzo brights.",
+    "string-bikini-btm":"The string bottom that finishes the set.",
+    "beach-tank-m":"A soft, lived-in tank in a rippling tide print.",
+    "resort-short":"A pull-on short in a tonal palm. From hammock to harbor bar.",
+    "swim-trunk":"Recycled swim trunks in a glowing sun print. Quick to dry, slow to leave.",
+    "bomber":"A clean-lined bomber in a graphic tile print. The travel-day layer.",
+    "windbreaker":"A packable windbreaker in awning stripe. For the unpredictable coast.",
+    "lounge-hoodie":"A heavyweight recycled hoodie in a soft terrazzo. Airport to apartment.",
+    "sweatpant":"Recycled joggers in a tonal stripe. The other half of the hoodie.",
+    "bucket-hat":"A reversible bucket hat in a layered palm. Shade, sorted.",
+    "beach-towel":"An oversized towel in classic awning stripe. Claim your sand.",
+    "beach-bag":"A roomy tote with an inner pocket, in a tonal palm. Everything fits.",
+    "tote":"An everyday tote in a sunlit print. Market runs and gallery days.",
+    "resort-shirt-mar":"The flagship resort shirt in the warm Marrakech colorway.",
+    "beach-dress-mar":"The t-shirt dress in terrazzo, warmed up for the Marrakech drop.",
+    "one-piece-mar":"The sculpted one-piece in the warm Marrakech sun.",
+    "bomber-mar":"The graphic bomber, reworked in warm Marrakech tones.",
+}
+MADE_TO_ORDER = ("Made to order — each piece is printed and shipped just for you in "
+                 "5–7 days, so we make less and waste less.")
+
+
+def description(slug):
+    return f"{HOOKS.get(slug,'')}\n\n{MADE_TO_ORDER}"
+
+
 def manifest():
     out = []
     for name, slug, cid, price, prnt, cw, cols in PRODUCTS:
         out.append({"name":name,"slug":slug,"catalog_id":cid,"price":price,
                     "print":prnt,"colorway":cw,"collections":cols,
-                    "printfile":f"{slug}-{cw}.png"})
+                    "printfile":f"{slug}-{cw}.png",
+                    "description":description(slug)})
     return out
 
 

@@ -13,7 +13,8 @@
       "New arrivals",
       "Most wanted"
     ],
-    "printfile": "resort-shirt-core.png"
+    "printfile": "resort-shirt-core.png",
+    "description": "The flagship. A camp-collar shirt cut for long golden hours and longer dinners.\n\nMade to order \u2014 each piece is printed and shipped just for you in 5\u20137 days, so we make less and waste less."
   },
   {
     "name": "The Linen-look Shirt",
@@ -27,7 +28,8 @@
       "Unisex",
       "Shirts"
     ],
-    "printfile": "linen-shirt-core.png"
+    "printfile": "linen-shirt-core.png",
+    "description": "An easy open-collar shirt with a soft textured hand \u2014 the one you live in off-duty.\n\nMade to order \u2014 each piece is printed and shipped just for you in 5\u20137 days, so we make less and waste less."
   },
   {
     "name": "The Camp Shirt",
@@ -41,7 +43,8 @@
       "Shirts",
       "New arrivals"
     ],
-    "printfile": "camp-shirt-core.png"
+    "printfile": "camp-shirt-core.png",
+    "description": "A boxy camp-collar shirt with a graphic tiled print. Equal parts pool and plaza.\n\nMade to order \u2014 each piece is printed and shipped just for you in 5\u20137 days, so we make less and waste less."
   },
   {
     "name": "The Beach Dress",
@@ -56,7 +59,8 @@
       "Beach dresses & layers",
       "Most wanted"
     ],
-    "printfile": "beach-dress-core.png"
+    "printfile": "beach-dress-core.png",
+    "description": "A breezy t-shirt dress that moves from sand to street without a second thought.\n\nMade to order \u2014 each piece is printed and shipped just for you in 5\u20137 days, so we make less and waste less."
   },
   {
     "name": "The Skater Dress",
@@ -69,7 +73,8 @@
       "Women",
       "Dresses"
     ],
-    "printfile": "skater-dress-core.png"
+    "printfile": "skater-dress-core.png",
+    "description": "A fit-and-flare dress with a painterly all-over print. Made for spinning.\n\nMade to order \u2014 each piece is printed and shipped just for you in 5\u20137 days, so we make less and waste less."
   },
   {
     "name": "The Bodycon",
@@ -82,7 +87,8 @@
       "Women",
       "Dresses"
     ],
-    "printfile": "bodycon-core.png"
+    "printfile": "bodycon-core.png",
+    "description": "A second-skin dress in a sunlit all-over print. Quietly devastating.\n\nMade to order \u2014 each piece is printed and shipped just for you in 5\u20137 days, so we make less and waste less."
   },
   {
     "name": "The Skater Skirt",
@@ -94,7 +100,8 @@
     "collections": [
       "Women"
     ],
-    "printfile": "skater-skirt-core.png"
+    "printfile": "skater-skirt-core.png",
+    "description": "A flippy awning-striped skirt that does all the talking.\n\nMade to order \u2014 each piece is printed and shipped just for you in 5\u20137 days, so we make less and waste less."
   },
   {
     "name": "The Beach Tank \u2014 Women",
@@ -107,7 +114,8 @@
       "Women",
       "New arrivals"
     ],
-    "printfile": "beach-tank-w-core.png"
+    "printfile": "beach-tank-w-core.png",
+    "description": "A relaxed tank in a layered botanical. Throw it on, walk out.\n\nMade to order \u2014 each piece is printed and shipped just for you in 5\u20137 days, so we make less and waste less."
   },
   {
     "name": "The One-Piece",
@@ -122,7 +130,8 @@
       "Swimwear",
       "Most wanted"
     ],
-    "printfile": "one-piece-core.png"
+    "printfile": "one-piece-core.png",
+    "description": "A sculpted one-piece in a radiant sun print. Built to be seen.\n\nMade to order \u2014 each piece is printed and shipped just for you in 5\u20137 days, so we make less and waste less."
   },
   {
     "name": "High-Waist Bikini Top",
@@ -136,7 +145,8 @@
       "Swim",
       "Swimwear"
     ],
-    "printfile": "hw-bikini-top-core.png"
+    "printfile": "hw-bikini-top-core.png",
+    "description": "A padded high-waist set top in a watery all-over print.\n\nMade to order \u2014 each piece is printed and shipped just for you in 5\u20137 days, so we make less and waste less."
   },
   {
     "name": "High-Waist Bikini Bottom",
@@ -150,7 +160,8 @@
       "Swim",
       "Swimwear"
     ],
-    "printfile": "hw-bikini-btm-core.png"
+    "printfile": "hw-bikini-btm-core.png",
+    "description": "High-waisted, high-confidence \u2014 the matching bottom.\n\nMade to order \u2014 each piece is printed and shipped just for you in 5\u20137 days, so we make less and waste less."
   },
   {
     "name": "String Bikini Top",
@@ -164,7 +175,8 @@
       "Swim",
       "Swimwear"
     ],
-    "printfile": "string-bikini-top-core.png"
+    "printfile": "string-bikini-top-core.png",
+    "description": "A padded string top speckled in terrazzo brights.\n\nMade to order \u2014 each piece is printed and shipped just for you in 5\u20137 days, so we make less and waste less."
   },
   {
     "name": "String Bikini Bottom",
@@ -178,7 +190,8 @@
       "Swim",
       "Swimwear"
     ],
-    "printfile": "string-bikini-btm-core.png"
+    "printfile": "string-bikini-btm-core.png",
+    "description": "The string bottom that finishes the set.\n\nMade to order \u2014 each piece is printed and shipped just for you in 5\u20137 days, so we make less and waste less."
   },
   {
     "name": "The Beach Tank \u2014 Men",
@@ -191,7 +204,8 @@
       "Men",
       "New arrivals"
     ],
-    "printfile": "beach-tank-m-core.png"
+    "printfile": "beach-tank-m-core.png",
+    "description": "A soft, lived-in tank in a rippling tide print.\n\nMade to order \u2014 each piece is printed and shipped just for you in 5\u20137 days, so we make less and waste less."
   },
   {
     "name": "The Resort Short",
@@ -203,7 +217,8 @@
     "collections": [
       "Men"
     ],
-    "printfile": "resort-short-core.png"
+    "printfile": "resort-short-core.png",
+    "description": "A pull-on short in a tonal palm. From hammock to harbor bar.\n\nMade to order \u2014 each piece is printed and shipped just for you in 5\u20137 days, so we make less and waste less."
   },
   {
     "name": "The Swim Trunk",
@@ -217,7 +232,8 @@
       "Swim",
       "Swimwear"
     ],
-    "printfile": "swim-trunk-core.png"
+    "printfile": "swim-trunk-core.png",
+    "description": "Recycled swim trunks in a glowing sun print. Quick to dry, slow to leave.\n\nMade to order \u2014 each piece is printed and shipped just for you in 5\u20137 days, so we make less and waste less."
   },
   {
     "name": "The Bomber",
@@ -230,7 +246,8 @@
       "Unisex",
       "Most wanted"
     ],
-    "printfile": "bomber-core.png"
+    "printfile": "bomber-core.png",
+    "description": "A clean-lined bomber in a graphic tile print. The travel-day layer.\n\nMade to order \u2014 each piece is printed and shipped just for you in 5\u20137 days, so we make less and waste less."
   },
   {
     "name": "The Windbreaker",
@@ -242,7 +259,8 @@
     "collections": [
       "Unisex"
     ],
-    "printfile": "windbreaker-core.png"
+    "printfile": "windbreaker-core.png",
+    "description": "A packable windbreaker in awning stripe. For the unpredictable coast.\n\nMade to order \u2014 each piece is printed and shipped just for you in 5\u20137 days, so we make less and waste less."
   },
   {
     "name": "The Lounge Hoodie",
@@ -254,7 +272,8 @@
     "collections": [
       "Unisex"
     ],
-    "printfile": "lounge-hoodie-core.png"
+    "printfile": "lounge-hoodie-core.png",
+    "description": "A heavyweight recycled hoodie in a soft terrazzo. Airport to apartment.\n\nMade to order \u2014 each piece is printed and shipped just for you in 5\u20137 days, so we make less and waste less."
   },
   {
     "name": "The Sweatpant",
@@ -266,7 +285,8 @@
     "collections": [
       "Unisex"
     ],
-    "printfile": "sweatpant-core.png"
+    "printfile": "sweatpant-core.png",
+    "description": "Recycled joggers in a tonal stripe. The other half of the hoodie.\n\nMade to order \u2014 each piece is printed and shipped just for you in 5\u20137 days, so we make less and waste less."
   },
   {
     "name": "The Bucket Hat",
@@ -279,7 +299,8 @@
       "Accessories",
       "Unisex"
     ],
-    "printfile": "bucket-hat-core.png"
+    "printfile": "bucket-hat-core.png",
+    "description": "A reversible bucket hat in a layered palm. Shade, sorted.\n\nMade to order \u2014 each piece is printed and shipped just for you in 5\u20137 days, so we make less and waste less."
   },
   {
     "name": "The Beach Towel",
@@ -291,7 +312,8 @@
     "collections": [
       "Accessories"
     ],
-    "printfile": "beach-towel-core.png"
+    "printfile": "beach-towel-core.png",
+    "description": "An oversized towel in classic awning stripe. Claim your sand.\n\nMade to order \u2014 each piece is printed and shipped just for you in 5\u20137 days, so we make less and waste less."
   },
   {
     "name": "The Beach Bag",
@@ -303,7 +325,8 @@
     "collections": [
       "Accessories"
     ],
-    "printfile": "beach-bag-core.png"
+    "printfile": "beach-bag-core.png",
+    "description": "A roomy tote with an inner pocket, in a tonal palm. Everything fits.\n\nMade to order \u2014 each piece is printed and shipped just for you in 5\u20137 days, so we make less and waste less."
   },
   {
     "name": "The Tote",
@@ -315,7 +338,8 @@
     "collections": [
       "Accessories"
     ],
-    "printfile": "tote-core.png"
+    "printfile": "tote-core.png",
+    "description": "An everyday tote in a sunlit print. Market runs and gallery days.\n\nMade to order \u2014 each piece is printed and shipped just for you in 5\u20137 days, so we make less and waste less."
   },
   {
     "name": "The Resort Shirt \u2014 Marrakech",
@@ -330,7 +354,8 @@
       "Shirts",
       "New arrivals"
     ],
-    "printfile": "resort-shirt-mar-marrakech.png"
+    "printfile": "resort-shirt-mar-marrakech.png",
+    "description": "The flagship resort shirt in the warm Marrakech colorway.\n\nMade to order \u2014 each piece is printed and shipped just for you in 5\u20137 days, so we make less and waste less."
   },
   {
     "name": "The Beach Dress \u2014 Marrakech",
@@ -344,7 +369,8 @@
       "Dresses",
       "New arrivals"
     ],
-    "printfile": "beach-dress-mar-marrakech.png"
+    "printfile": "beach-dress-mar-marrakech.png",
+    "description": "The t-shirt dress in terrazzo, warmed up for the Marrakech drop.\n\nMade to order \u2014 each piece is printed and shipped just for you in 5\u20137 days, so we make less and waste less."
   },
   {
     "name": "The One-Piece \u2014 Marrakech",
@@ -358,7 +384,8 @@
       "Swim",
       "Swimwear"
     ],
-    "printfile": "one-piece-mar-marrakech.png"
+    "printfile": "one-piece-mar-marrakech.png",
+    "description": "The sculpted one-piece in the warm Marrakech sun.\n\nMade to order \u2014 each piece is printed and shipped just for you in 5\u20137 days, so we make less and waste less."
   },
   {
     "name": "The Bomber \u2014 Marrakech",
@@ -371,6 +398,7 @@
       "Unisex",
       "New arrivals"
     ],
-    "printfile": "bomber-mar-marrakech.png"
+    "printfile": "bomber-mar-marrakech.png",
+    "description": "The graphic bomber, reworked in warm Marrakech tones.\n\nMade to order \u2014 each piece is printed and shipped just for you in 5\u20137 days, so we make less and waste less."
   }
 ]
