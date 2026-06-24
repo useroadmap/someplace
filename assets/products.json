@@ -1,0 +1,376 @@
+[
+  {
+    "name": "The Resort Shirt",
+    "slug": "resort-shirt",
+    "catalog_id": 659,
+    "price": 108,
+    "print": "palm",
+    "colorway": "core",
+    "collections": [
+      "Men",
+      "Unisex",
+      "Shirts",
+      "New arrivals",
+      "Most wanted"
+    ],
+    "printfile": "resort-shirt-core.png"
+  },
+  {
+    "name": "The Linen-look Shirt",
+    "slug": "linen-shirt",
+    "catalog_id": 659,
+    "price": 98,
+    "print": "solid-sand",
+    "colorway": "core",
+    "collections": [
+      "Men",
+      "Unisex",
+      "Shirts"
+    ],
+    "printfile": "linen-shirt-core.png"
+  },
+  {
+    "name": "The Camp Shirt",
+    "slug": "camp-shirt",
+    "catalog_id": 659,
+    "price": 108,
+    "print": "tile",
+    "colorway": "core",
+    "collections": [
+      "Unisex",
+      "Shirts",
+      "New arrivals"
+    ],
+    "printfile": "camp-shirt-core.png"
+  },
+  {
+    "name": "The Beach Dress",
+    "slug": "beach-dress",
+    "catalog_id": 514,
+    "price": 98,
+    "print": "tide",
+    "colorway": "core",
+    "collections": [
+      "Women",
+      "Dresses",
+      "Beach dresses & layers",
+      "Most wanted"
+    ],
+    "printfile": "beach-dress-core.png"
+  },
+  {
+    "name": "The Skater Dress",
+    "slug": "skater-dress",
+    "catalog_id": 315,
+    "price": 118,
+    "print": "terrazzo",
+    "colorway": "core",
+    "collections": [
+      "Women",
+      "Dresses"
+    ],
+    "printfile": "skater-dress-core.png"
+  },
+  {
+    "name": "The Bodycon",
+    "slug": "bodycon",
+    "catalog_id": 198,
+    "price": 108,
+    "print": "sun",
+    "colorway": "core",
+    "collections": [
+      "Women",
+      "Dresses"
+    ],
+    "printfile": "bodycon-core.png"
+  },
+  {
+    "name": "The Skater Skirt",
+    "slug": "skater-skirt",
+    "catalog_id": 314,
+    "price": 78,
+    "print": "stripe",
+    "colorway": "core",
+    "collections": [
+      "Women"
+    ],
+    "printfile": "skater-skirt-core.png"
+  },
+  {
+    "name": "The Beach Tank \u2014 Women",
+    "slug": "beach-tank-w",
+    "catalog_id": 202,
+    "price": 52,
+    "print": "palm",
+    "colorway": "core",
+    "collections": [
+      "Women",
+      "New arrivals"
+    ],
+    "printfile": "beach-tank-w-core.png"
+  },
+  {
+    "name": "The One-Piece",
+    "slug": "one-piece",
+    "catalog_id": 272,
+    "price": 98,
+    "print": "sun",
+    "colorway": "core",
+    "collections": [
+      "Women",
+      "Swim",
+      "Swimwear",
+      "Most wanted"
+    ],
+    "printfile": "one-piece-core.png"
+  },
+  {
+    "name": "High-Waist Bikini Top",
+    "slug": "hw-bikini-top",
+    "catalog_id": 469,
+    "price": 48,
+    "print": "tide",
+    "colorway": "core",
+    "collections": [
+      "Women",
+      "Swim",
+      "Swimwear"
+    ],
+    "printfile": "hw-bikini-top-core.png"
+  },
+  {
+    "name": "High-Waist Bikini Bottom",
+    "slug": "hw-bikini-btm",
+    "catalog_id": 470,
+    "price": 44,
+    "print": "tide",
+    "colorway": "core",
+    "collections": [
+      "Women",
+      "Swim",
+      "Swimwear"
+    ],
+    "printfile": "hw-bikini-btm-core.png"
+  },
+  {
+    "name": "String Bikini Top",
+    "slug": "string-bikini-top",
+    "catalog_id": 668,
+    "price": 46,
+    "print": "terrazzo",
+    "colorway": "core",
+    "collections": [
+      "Women",
+      "Swim",
+      "Swimwear"
+    ],
+    "printfile": "string-bikini-top-core.png"
+  },
+  {
+    "name": "String Bikini Bottom",
+    "slug": "string-bikini-btm",
+    "catalog_id": 669,
+    "price": 42,
+    "print": "terrazzo",
+    "colorway": "core",
+    "collections": [
+      "Women",
+      "Swim",
+      "Swimwear"
+    ],
+    "printfile": "string-bikini-btm-core.png"
+  },
+  {
+    "name": "The Beach Tank \u2014 Men",
+    "slug": "beach-tank-m",
+    "catalog_id": 276,
+    "price": 54,
+    "print": "tide",
+    "colorway": "core",
+    "collections": [
+      "Men",
+      "New arrivals"
+    ],
+    "printfile": "beach-tank-m-core.png"
+  },
+  {
+    "name": "The Resort Short",
+    "slug": "resort-short",
+    "catalog_id": 330,
+    "price": 72,
+    "print": "palm",
+    "colorway": "core",
+    "collections": [
+      "Men"
+    ],
+    "printfile": "resort-short-core.png"
+  },
+  {
+    "name": "The Swim Trunk",
+    "slug": "swim-trunk",
+    "catalog_id": 571,
+    "price": 78,
+    "print": "sun",
+    "colorway": "core",
+    "collections": [
+      "Men",
+      "Swim",
+      "Swimwear"
+    ],
+    "printfile": "swim-trunk-core.png"
+  },
+  {
+    "name": "The Bomber",
+    "slug": "bomber",
+    "catalog_id": 390,
+    "price": 148,
+    "print": "tile",
+    "colorway": "core",
+    "collections": [
+      "Unisex",
+      "Most wanted"
+    ],
+    "printfile": "bomber-core.png"
+  },
+  {
+    "name": "The Windbreaker",
+    "slug": "windbreaker",
+    "catalog_id": 615,
+    "price": 138,
+    "print": "stripe",
+    "colorway": "core",
+    "collections": [
+      "Unisex"
+    ],
+    "printfile": "windbreaker-core.png"
+  },
+  {
+    "name": "The Lounge Hoodie",
+    "slug": "lounge-hoodie",
+    "catalog_id": 388,
+    "price": 98,
+    "print": "terrazzo",
+    "colorway": "core",
+    "collections": [
+      "Unisex"
+    ],
+    "printfile": "lounge-hoodie-core.png"
+  },
+  {
+    "name": "The Sweatpant",
+    "slug": "sweatpant",
+    "catalog_id": 400,
+    "price": 88,
+    "print": "stripe",
+    "colorway": "core",
+    "collections": [
+      "Unisex"
+    ],
+    "printfile": "sweatpant-core.png"
+  },
+  {
+    "name": "The Bucket Hat",
+    "slug": "bucket-hat",
+    "catalog_id": 654,
+    "price": 42,
+    "print": "palm",
+    "colorway": "core",
+    "collections": [
+      "Accessories",
+      "Unisex"
+    ],
+    "printfile": "bucket-hat-core.png"
+  },
+  {
+    "name": "The Beach Towel",
+    "slug": "beach-towel",
+    "catalog_id": 259,
+    "price": 58,
+    "print": "stripe",
+    "colorway": "core",
+    "collections": [
+      "Accessories"
+    ],
+    "printfile": "beach-towel-core.png"
+  },
+  {
+    "name": "The Beach Bag",
+    "slug": "beach-bag",
+    "catalog_id": 274,
+    "price": 54,
+    "print": "palm",
+    "colorway": "core",
+    "collections": [
+      "Accessories"
+    ],
+    "printfile": "beach-bag-core.png"
+  },
+  {
+    "name": "The Tote",
+    "slug": "tote",
+    "catalog_id": 84,
+    "price": 34,
+    "print": "sun",
+    "colorway": "core",
+    "collections": [
+      "Accessories"
+    ],
+    "printfile": "tote-core.png"
+  },
+  {
+    "name": "The Resort Shirt \u2014 Marrakech",
+    "slug": "resort-shirt-mar",
+    "catalog_id": 659,
+    "price": 108,
+    "print": "palm",
+    "colorway": "marrakech",
+    "collections": [
+      "Men",
+      "Unisex",
+      "Shirts",
+      "New arrivals"
+    ],
+    "printfile": "resort-shirt-mar-marrakech.png"
+  },
+  {
+    "name": "The Beach Dress \u2014 Marrakech",
+    "slug": "beach-dress-mar",
+    "catalog_id": 514,
+    "price": 98,
+    "print": "terrazzo",
+    "colorway": "marrakech",
+    "collections": [
+      "Women",
+      "Dresses",
+      "New arrivals"
+    ],
+    "printfile": "beach-dress-mar-marrakech.png"
+  },
+  {
+    "name": "The One-Piece \u2014 Marrakech",
+    "slug": "one-piece-mar",
+    "catalog_id": 272,
+    "price": 98,
+    "print": "sun",
+    "colorway": "marrakech",
+    "collections": [
+      "Women",
+      "Swim",
+      "Swimwear"
+    ],
+    "printfile": "one-piece-mar-marrakech.png"
+  },
+  {
+    "name": "The Bomber \u2014 Marrakech",
+    "slug": "bomber-mar",
+    "catalog_id": 390,
+    "price": 148,
+    "print": "tile",
+    "colorway": "marrakech",
+    "collections": [
+      "Unisex",
+      "New arrivals"
+    ],
+    "printfile": "bomber-mar-marrakech.png"
+  }
+]

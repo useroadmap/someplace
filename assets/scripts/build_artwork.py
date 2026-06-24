@@ -1,0 +1,96 @@
+#!/usr/bin/env python3
+"""
+Someplace — build manifest + artwork generator.
+
+Defines the launch line (garment -> Printful catalog id, retail price, house
+print, colorway) and renders ONE printfile per product at its primary (largest)
+Printful printfile dimension. Printful's "cover" fill reuses that same file for
+the product's other placements (sleeves, linings, etc.), so one file per
+product is enough and stays pixel-sharp on the main body.
+
+Writes:
+  assets/prints/<slug>-<colorway>.png   (the printfiles, public via raw URL)
+  assets/products.json                  (manifest consumed by the sync step)
+"""
+import json, os, importlib.util
+
+HERE = os.path.dirname(os.path.abspath(__file__))
+spec = importlib.util.spec_from_file_location("gp", os.path.join(HERE, "generate_prints.py"))
+gp = importlib.util.module_from_spec(spec); spec.loader.exec_module(gp)
+
+# Primary (largest-area) printfile dimension per catalog product — from
+# GET /mockup-generator/printfiles/{id}. Used for the main body; cover handles
+# the rest.
+PRIMARY = {
+    514:(5100,7200), 315:(8550,4500), 198:(6975,6000), 314:(8550,4500),
+    202:(6900,4650), 272:(3750,5250), 469:(3375,2850), 470:(3375,2850),
+    668:(7500,3300), 669:(7500,3300), 659:(5700,7500), 276:(4050,5100),
+    330:(6900,3600), 571:(7650,4050), 390:(4650,5400), 615:(5100,5700),
+    388:(6000,6000), 400:(4950,7500), 654:(2700,3150), 259:(11100,5700),
+    274:(3150,5550), 84:(2550,2475),
+}
+
+# name, slug, catalog_id, price, print, colorway, collections
+PRODUCTS = [
+    # ---- Core line ----
+    ("The Resort Shirt","resort-shirt",659,108,"palm","core",["Men","Unisex","Shirts","New arrivals","Most wanted"]),
+    ("The Linen-look Shirt","linen-shirt",659,98,"solid-sand","core",["Men","Unisex","Shirts"]),
+    ("The Camp Shirt","camp-shirt",659,108,"tile","core",["Unisex","Shirts","New arrivals"]),
+    ("The Beach Dress","beach-dress",514,98,"tide","core",["Women","Dresses","Beach dresses & layers","Most wanted"]),
+    ("The Skater Dress","skater-dress",315,118,"terrazzo","core",["Women","Dresses"]),
+    ("The Bodycon","bodycon",198,108,"sun","core",["Women","Dresses"]),
+    ("The Skater Skirt","skater-skirt",314,78,"stripe","core",["Women"]),
+    ("The Beach Tank — Women","beach-tank-w",202,52,"palm","core",["Women","New arrivals"]),
+    ("The One-Piece","one-piece",272,98,"sun","core",["Women","Swim","Swimwear","Most wanted"]),
+    ("High-Waist Bikini Top","hw-bikini-top",469,48,"tide","core",["Women","Swim","Swimwear"]),
+    ("High-Waist Bikini Bottom","hw-bikini-btm",470,44,"tide","core",["Women","Swim","Swimwear"]),
+    ("String Bikini Top","string-bikini-top",668,46,"terrazzo","core",["Women","Swim","Swimwear"]),
+    ("String Bikini Bottom","string-bikini-btm",669,42,"terrazzo","core",["Women","Swim","Swimwear"]),
+    ("The Beach Tank — Men","beach-tank-m",276,54,"tide","core",["Men","New arrivals"]),
+    ("The Resort Short","resort-short",330,72,"palm","core",["Men"]),
+    ("The Swim Trunk","swim-trunk",571,78,"sun","core",["Men","Swim","Swimwear"]),
+    ("The Bomber","bomber",390,148,"tile","core",["Unisex","Most wanted"]),
+    ("The Windbreaker","windbreaker",615,138,"stripe","core",["Unisex"]),
+    ("The Lounge Hoodie","lounge-hoodie",388,98,"terrazzo","core",["Unisex"]),
+    ("The Sweatpant","sweatpant",400,88,"stripe","core",["Unisex"]),
+    ("The Bucket Hat","bucket-hat",654,42,"palm","core",["Accessories","Unisex"]),
+    ("The Beach Towel","beach-towel",259,58,"stripe","core",["Accessories"]),
+    ("The Beach Bag","beach-bag",274,54,"palm","core",["Accessories"]),
+    ("The Tote","tote",84,34,"sun","core",["Accessories"]),
+    # ---- Marrakech hero drop ----
+    ("The Resort Shirt — Marrakech","resort-shirt-mar",659,108,"palm","marrakech",["Men","Unisex","Shirts","New arrivals"]),
+    ("The Beach Dress — Marrakech","beach-dress-mar",514,98,"terrazzo","marrakech",["Women","Dresses","New arrivals"]),
+    ("The One-Piece — Marrakech","one-piece-mar",272,98,"sun","marrakech",["Women","Swim","Swimwear"]),
+    ("The Bomber — Marrakech","bomber-mar",390,148,"tile","marrakech",["Unisex","New arrivals"]),
+]
+
+
+def manifest():
+    out = []
+    for name, slug, cid, price, prnt, cw, cols in PRODUCTS:
+        out.append({"name":name,"slug":slug,"catalog_id":cid,"price":price,
+                    "print":prnt,"colorway":cw,"collections":cols,
+                    "printfile":f"{slug}-{cw}.png"})
+    return out
+
+
+def main():
+    prints_dir = os.path.normpath(os.path.join(HERE, "..", "prints"))
+    os.makedirs(prints_dir, exist_ok=True)
+    seen = set()
+    for name, slug, cid, price, prnt, cw, cols in PRODUCTS:
+        w, h = PRIMARY[cid]
+        out = os.path.join(prints_dir, f"{slug}-{cw}.png")
+        if out in seen:
+            continue
+        seen.add(out)
+        gp.build(prnt, cw, w, h, out)
+        print(f"{slug:20} {prnt:11} {cw:9} {w}x{h}")
+    man = manifest()
+    with open(os.path.normpath(os.path.join(HERE, "..", "products.json")), "w") as f:
+        json.dump(man, f, indent=2)
+    print(f"wrote products.json ({len(man)} products)")
+
+
+if __name__ == "__main__":
+    main()
