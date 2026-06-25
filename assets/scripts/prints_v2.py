@@ -15,18 +15,14 @@ T = 1100
 def _h(s):
     s = s.lstrip("#"); return tuple(int(s[i:i+2], 16) for i in (0, 2, 4))
 
-# colorway -> ground / line / speck palette. Muted, warm, elevated.
+# colorway -> ground / line / speck palette. Cool, rich, coastal (chosen set).
 COLORWAYS = {
-    "bone":     {"g": _h("#efe9dd"), "line": _h("#2c2722"), "soft": _h("#9a8e7b"),
-                 "specks": ["#2c2722", "#8d9a84", "#b58a71", "#9a8e7b"]},
-    "sand":     {"g": _h("#dccdb2"), "line": _h("#3a342d"), "soft": _h("#8a7d66"),
-                 "specks": ["#2c2722", "#b58a71", "#8d9a84", "#7c6f58"]},
-    "sage":     {"g": _h("#aab09a"), "line": _h("#2c2722"), "soft": _h("#7a8270"),
-                 "specks": ["#2c2722", "#b58a71", "#e6dcc7", "#6f7a4f"]},
-    "clay":     {"g": _h("#c8a98f"), "line": _h("#2c2722"), "soft": _h("#9c7a63"),
-                 "specks": ["#2c2722", "#8d9a84", "#efe9dd", "#9c5f43"]},
-    "espresso": {"g": _h("#2c2722"), "line": _h("#cbbfa9"), "soft": _h("#7a7060"),
-                 "specks": ["#cbbfa9", "#b58a71", "#8d9a84", "#9a8e7b"]},
+    "marine":   {"g": _h("#f4efe4"), "line": _h("#1f3a5f"), "soft": _h("#8295ad"),
+                 "specks": ["#1f3a5f", "#e7613f", "#1f3a5f", "#9fb0c4"]},
+    "verde":    {"g": _h("#f1efe2"), "line": _h("#234339"), "soft": _h("#7e9183"),
+                 "specks": ["#234339", "#bf4a2c", "#e7dfca", "#234339"]},
+    "midnight": {"g": _h("#1f2d3d"), "line": _h("#ede4cf"), "soft": _h("#7e8ba0"),
+                 "specks": ["#ede4cf", "#d98a5b", "#9fb0c4", "#ede4cf"]},
 }
 
 
@@ -85,9 +81,11 @@ def terrazzo(p):
     return _fin(im)
 
 
-PRINTS = {"windowpane": windowpane, "contour": contour, "terrazzo": terrazzo}
-SOLIDS = {"solid-bone": "#efe9dd", "solid-sand": "#dccdb2", "solid-sage": "#9aa68f",
-          "solid-clay": "#c8a98f", "solid-espresso": "#2c2722"}
+# windowpane retired (too "nerdy"); line now runs on contour + terrazzo + solids.
+PRINTS = {"contour": contour, "terrazzo": terrazzo}
+SOLIDS = {"solid-ivory": "#f4efe4", "solid-navy": "#1f3a5f",
+          "solid-emerald": "#234339", "solid-coral": "#e7613f",
+          "solid-terracotta": "#bf4a2c"}
 
 
 def build(name, colorway, w, h, out):
