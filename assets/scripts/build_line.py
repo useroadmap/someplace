@@ -31,8 +31,8 @@ P = [
  ("The One-Piece","one-piece",272,98,"terrazzo","midnight","Tulum",["Women","Swim","Swimwear","Most wanted"]),
  ("High-Waist Bikini Top","hw-bikini-top",469,48,"solid","coral","Bali",["Women","Swim","Swimwear"]),
  ("High-Waist Bikini Bottom","hw-bikini-btm",470,44,"solid","coral","Bali",["Women","Swim","Swimwear"]),
- ("String Bikini Top","string-bikini-top",668,46,"terrazzo","marine","Tulum",["Women","Swim","Swimwear"]),
- ("String Bikini Bottom","string-bikini-btm",669,42,"terrazzo","marine","Tulum",["Women","Swim","Swimwear"]),
+ ("String Bikini Top","string-bikini-top",668,46,"terrazzo","midnight","Tulum",["Women","Swim","Swimwear"]),
+ ("String Bikini Bottom","string-bikini-btm",669,42,"terrazzo","midnight","Tulum",["Women","Swim","Swimwear"]),
  ("The Beach Tank — Men","beach-tank-m",276,54,"solid","navy","Bali",["Men","New arrivals"]),
  ("The Resort Short","resort-short",330,72,"contour","verde","Marrakech",["Men"]),
  ("The Swim Trunk","swim-trunk",571,78,"terrazzo","marine","Bali",["Men","Swim","Swimwear"]),
@@ -41,9 +41,9 @@ P = [
  ("The Lounge Hoodie","lounge-hoodie",388,98,"solid","ivory","Marrakech",["Unisex"]),
  ("The Sweatpant","sweatpant",400,88,"solid","navy","Marrakech",["Unisex"]),
  ("The Bucket Hat","bucket-hat",654,42,"terrazzo","midnight","Tulum",["Accessories","Unisex"]),
- ("The Beach Towel","beach-towel",259,58,"contour","marine","Bali",["Accessories"]),
+ ("The Beach Towel","beach-towel",259,58,"terrazzo","midnight","Bali",["Accessories"]),
  ("The Beach Bag","beach-bag",274,54,"terrazzo","verde","Marrakech",["Accessories"]),
- ("The Tote","tote",84,34,"contour","verde","Lisbon",["Accessories"]),
+ ("The Tote","tote",84,34,"contour","midnight","Lisbon",["Accessories"]),
 ]
 
 HOOKS = {  # short on-brand copy; refine later

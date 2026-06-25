@@ -228,7 +228,7 @@
     "catalog_id": 668,
     "price": 46,
     "print": "terrazzo",
-    "colorway": "marine",
+    "colorway": "midnight",
     "art": "terrazzo",
     "city": "Tulum",
     "collections": [
@@ -239,7 +239,7 @@
     "files": {
       "primary": "string-bikini-top-terrazzo.png"
     },
-    "label": "terrazzo \u00b7 marine",
+    "label": "terrazzo \u00b7 midnight",
     "description": "A padded string top in fine marine terrazzo.\n\nMade to order \u2014 printed and shipped just for you in 5\u20137 days, so we make less and waste less."
   },
   {
@@ -248,7 +248,7 @@
     "catalog_id": 669,
     "price": 42,
     "print": "terrazzo",
-    "colorway": "marine",
+    "colorway": "midnight",
     "art": "terrazzo",
     "city": "Tulum",
     "collections": [
@@ -259,7 +259,7 @@
     "files": {
       "primary": "string-bikini-btm-terrazzo.png"
     },
-    "label": "terrazzo \u00b7 marine",
+    "label": "terrazzo \u00b7 midnight",
     "description": "The string bottom that finishes the set.\n\nMade to order \u2014 printed and shipped just for you in 5\u20137 days, so we make less and waste less."
   },
   {
@@ -417,17 +417,17 @@
     "slug": "beach-towel",
     "catalog_id": 259,
     "price": 58,
-    "print": "contour",
-    "colorway": "marine",
-    "art": "contour",
+    "print": "terrazzo",
+    "colorway": "midnight",
+    "art": "terrazzo",
     "city": "Bali",
     "collections": [
       "Accessories"
     ],
     "files": {
-      "primary": "beach-towel-contour.png"
+      "primary": "beach-towel-terrazzo.png"
     },
-    "label": "contour \u00b7 marine",
+    "label": "terrazzo \u00b7 midnight",
     "description": "An oversized towel traced in marine contour.\n\nMade to order \u2014 printed and shipped just for you in 5\u20137 days, so we make less and waste less."
   },
   {
@@ -454,7 +454,7 @@
     "catalog_id": 84,
     "price": 34,
     "print": "contour",
-    "colorway": "verde",
+    "colorway": "midnight",
     "art": "contour",
     "city": "Lisbon",
     "collections": [
@@ -463,7 +463,7 @@
     "files": {
       "primary": "tote-contour.png"
     },
-    "label": "contour \u00b7 verde",
+    "label": "contour \u00b7 midnight",
     "description": "An everyday tote in verde contour. Market runs and gallery days.\n\nMade to order \u2014 printed and shipped just for you in 5\u20137 days, so we make less and waste less."
   }
 ]
