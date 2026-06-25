@@ -1,0 +1,216 @@
+[
+  {
+    "name": "The Resort Shirt",
+    "slug": "resort-shirt",
+    "catalog_id": 659,
+    "price": 108,
+    "art": "sig",
+    "gender": "Men",
+    "collections": [
+      "Men",
+      "Unisex",
+      "Shirts",
+      "New arrivals",
+      "Most wanted"
+    ],
+    "files": {
+      "primary": "resort-shirt.png",
+      "sleeve": "resort-shirt-slv.png"
+    },
+    "label": "signature terrazzo \u00b7 midnight",
+    "description": "The flagship camp-collar shirt in our signature midnight terrazzo, printed head to hem.\n\nMade to order \u2014 printed and shipped just for you in 5\u20137 days, so we make less and waste less."
+  },
+  {
+    "name": "The Camp Shirt",
+    "slug": "camp-shirt",
+    "catalog_id": 659,
+    "price": 108,
+    "art": "solid-emerald",
+    "gender": "Unisex",
+    "collections": [
+      "Unisex",
+      "Shirts"
+    ],
+    "files": {
+      "primary": "camp-shirt.png",
+      "sleeve": "camp-shirt-slv.png"
+    },
+    "label": "solid emerald",
+    "description": "A boxy camp-collar shirt in deep emerald. Clean, grown-up, easy.\n\nMade to order \u2014 printed and shipped just for you in 5\u20137 days, so we make less and waste less."
+  },
+  {
+    "name": "The Linen-look Shirt",
+    "slug": "linen-shirt",
+    "catalog_id": 659,
+    "price": 98,
+    "art": "solid-ivory",
+    "gender": "Men",
+    "collections": [
+      "Men",
+      "Unisex",
+      "Shirts"
+    ],
+    "files": {
+      "primary": "linen-shirt.png",
+      "sleeve": "linen-shirt-slv.png"
+    },
+    "label": "solid ivory",
+    "description": "An open-collar shirt in soft ivory \u2014 the off-duty staple.\n\nMade to order \u2014 printed and shipped just for you in 5\u20137 days, so we make less and waste less."
+  },
+  {
+    "name": "The Beach Dress",
+    "slug": "beach-dress",
+    "catalog_id": 514,
+    "price": 98,
+    "art": "sig",
+    "gender": "Women",
+    "collections": [
+      "Women",
+      "Dresses",
+      "New arrivals",
+      "Most wanted"
+    ],
+    "files": {
+      "primary": "beach-dress.png",
+      "sleeve": "beach-dress-slv.png"
+    },
+    "label": "signature terrazzo \u00b7 midnight",
+    "description": "A breezy t-shirt dress in the signature midnight terrazzo. Sand to street.\n\nMade to order \u2014 printed and shipped just for you in 5\u20137 days, so we make less and waste less."
+  },
+  {
+    "name": "The Bodycon",
+    "slug": "bodycon",
+    "catalog_id": 198,
+    "price": 108,
+    "art": "solid-navy",
+    "gender": "Women",
+    "collections": [
+      "Women",
+      "Dresses"
+    ],
+    "files": {
+      "primary": "bodycon.png"
+    },
+    "label": "solid navy",
+    "description": "A second-skin dress in deep navy. Quietly devastating.\n\nMade to order \u2014 printed and shipped just for you in 5\u20137 days, so we make less and waste less."
+  },
+  {
+    "name": "The One-Piece",
+    "slug": "one-piece",
+    "catalog_id": 272,
+    "price": 98,
+    "art": "solid-terracotta",
+    "gender": "Women",
+    "collections": [
+      "Women",
+      "Swim",
+      "Swimwear"
+    ],
+    "files": {
+      "primary": "one-piece.png"
+    },
+    "label": "solid terracotta",
+    "description": "A sculpted one-piece in warm terracotta. Built to be seen.\n\nMade to order \u2014 printed and shipped just for you in 5\u20137 days, so we make less and waste less."
+  },
+  {
+    "name": "The Swim Trunk",
+    "slug": "swim-trunk",
+    "catalog_id": 571,
+    "price": 78,
+    "art": "sig",
+    "gender": "Men",
+    "collections": [
+      "Men",
+      "Swim",
+      "Swimwear"
+    ],
+    "files": {
+      "primary": "swim-trunk.png"
+    },
+    "label": "signature terrazzo \u00b7 midnight",
+    "description": "Recycled trunks in the signature midnight terrazzo. Quick to dry, slow to leave.\n\nMade to order \u2014 printed and shipped just for you in 5\u20137 days, so we make less and waste less."
+  },
+  {
+    "name": "The Resort Short",
+    "slug": "resort-short",
+    "catalog_id": 330,
+    "price": 72,
+    "art": "solid-navy",
+    "gender": "Men",
+    "collections": [
+      "Men"
+    ],
+    "files": {
+      "primary": "resort-short.png"
+    },
+    "label": "solid navy",
+    "description": "A pull-on short in deep navy. Hammock to harbor bar.\n\nMade to order \u2014 printed and shipped just for you in 5\u20137 days, so we make less and waste less."
+  },
+  {
+    "name": "The Bomber",
+    "slug": "bomber",
+    "catalog_id": 390,
+    "price": 148,
+    "art": "solid-emerald",
+    "gender": "Unisex",
+    "collections": [
+      "Unisex",
+      "Most wanted"
+    ],
+    "files": {
+      "primary": "bomber.png",
+      "sleeve": "bomber-slv.png"
+    },
+    "label": "solid emerald",
+    "description": "A clean-lined bomber in deep emerald. The travel-day layer.\n\nMade to order \u2014 printed and shipped just for you in 5\u20137 days, so we make less and waste less."
+  },
+  {
+    "name": "The Lounge Hoodie",
+    "slug": "lounge-hoodie",
+    "catalog_id": 388,
+    "price": 98,
+    "art": "solid-ivory",
+    "gender": "Unisex",
+    "collections": [
+      "Unisex"
+    ],
+    "files": {
+      "primary": "lounge-hoodie.png"
+    },
+    "label": "solid ivory",
+    "description": "A heavyweight recycled hoodie in soft ivory.\n\nMade to order \u2014 printed and shipped just for you in 5\u20137 days, so we make less and waste less."
+  },
+  {
+    "name": "The Bucket Hat",
+    "slug": "bucket-hat",
+    "catalog_id": 654,
+    "price": 42,
+    "art": "sig",
+    "gender": "Unisex",
+    "collections": [
+      "Accessories",
+      "Unisex"
+    ],
+    "files": {
+      "primary": "bucket-hat.png"
+    },
+    "label": "signature terrazzo \u00b7 midnight",
+    "description": "A reversible bucket hat in the signature midnight terrazzo.\n\nMade to order \u2014 printed and shipped just for you in 5\u20137 days, so we make less and waste less."
+  },
+  {
+    "name": "The Tote",
+    "slug": "tote",
+    "catalog_id": 84,
+    "price": 34,
+    "art": "solid-navy",
+    "gender": "Unisex",
+    "collections": [
+      "Accessories"
+    ],
+    "files": {
+      "primary": "tote.png"
+    },
+    "label": "solid navy",
+    "description": "An everyday tote in deep navy. Market runs and gallery days.\n\nMade to order \u2014 printed and shipped just for you in 5\u20137 days, so we make less and waste less."
+  }
+]
