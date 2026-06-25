@@ -1,0 +1,469 @@
+[
+  {
+    "name": "The Resort Shirt",
+    "slug": "resort-shirt",
+    "catalog_id": 659,
+    "price": 108,
+    "print": "contour",
+    "colorway": "marine",
+    "art": "contour",
+    "city": "Lisbon",
+    "collections": [
+      "Men",
+      "Unisex",
+      "Shirts",
+      "New arrivals",
+      "Most wanted"
+    ],
+    "files": {
+      "primary": "resort-shirt-contour.png",
+      "sleeve": "resort-shirt-contour-slv.png"
+    },
+    "label": "contour \u00b7 marine",
+    "description": "The flagship camp-collar shirt, head-to-hem print, cut for long golden hours.\n\nMade to order \u2014 printed and shipped just for you in 5\u20137 days, so we make less and waste less."
+  },
+  {
+    "name": "The Linen-look Shirt",
+    "slug": "linen-shirt",
+    "catalog_id": 659,
+    "price": 98,
+    "print": "solid",
+    "colorway": "ivory",
+    "art": "solid-ivory",
+    "city": "Lisbon",
+    "collections": [
+      "Men",
+      "Unisex",
+      "Shirts"
+    ],
+    "files": {
+      "primary": "linen-shirt-solid-ivory.png",
+      "sleeve": "linen-shirt-solid-ivory-slv.png"
+    },
+    "label": "solid \u00b7 ivory",
+    "description": "An easy open-collar shirt in a soft tonal solid \u2014 the off-duty staple.\n\nMade to order \u2014 printed and shipped just for you in 5\u20137 days, so we make less and waste less."
+  },
+  {
+    "name": "The Camp Shirt",
+    "slug": "camp-shirt",
+    "catalog_id": 659,
+    "price": 108,
+    "print": "terrazzo",
+    "colorway": "midnight",
+    "art": "terrazzo",
+    "city": "Tulum",
+    "collections": [
+      "Unisex",
+      "Shirts",
+      "New arrivals"
+    ],
+    "files": {
+      "primary": "camp-shirt-terrazzo.png",
+      "sleeve": "camp-shirt-terrazzo-slv.png"
+    },
+    "label": "terrazzo \u00b7 midnight",
+    "description": "A boxy camp-collar shirt in a fine speckled terrazzo. Pool to plaza.\n\nMade to order \u2014 printed and shipped just for you in 5\u20137 days, so we make less and waste less."
+  },
+  {
+    "name": "The Beach Dress",
+    "slug": "beach-dress",
+    "catalog_id": 514,
+    "price": 98,
+    "print": "terrazzo",
+    "colorway": "verde",
+    "art": "terrazzo",
+    "city": "Bali",
+    "collections": [
+      "Women",
+      "Dresses",
+      "Beach dresses & layers",
+      "Most wanted"
+    ],
+    "files": {
+      "primary": "beach-dress-terrazzo.png",
+      "sleeve": "beach-dress-terrazzo-slv.png"
+    },
+    "label": "terrazzo \u00b7 verde",
+    "description": "A breezy t-shirt dress in a quiet terrazzo. Sand to street.\n\nMade to order \u2014 printed and shipped just for you in 5\u20137 days, so we make less and waste less."
+  },
+  {
+    "name": "The Skater Dress",
+    "slug": "skater-dress",
+    "catalog_id": 315,
+    "price": 118,
+    "print": "solid",
+    "colorway": "terracotta",
+    "art": "solid-terracotta",
+    "city": "Marrakech",
+    "collections": [
+      "Women",
+      "Dresses"
+    ],
+    "files": {
+      "primary": "skater-dress-solid-terracotta.png"
+    },
+    "label": "solid \u00b7 terracotta",
+    "description": "A fit-and-flare dress in a rich tonal solid. Made for spinning.\n\nMade to order \u2014 printed and shipped just for you in 5\u20137 days, so we make less and waste less."
+  },
+  {
+    "name": "The Bodycon",
+    "slug": "bodycon",
+    "catalog_id": 198,
+    "price": 108,
+    "print": "contour",
+    "colorway": "midnight",
+    "art": "contour",
+    "city": "Tulum",
+    "collections": [
+      "Women",
+      "Dresses"
+    ],
+    "files": {
+      "primary": "bodycon-contour.png"
+    },
+    "label": "contour \u00b7 midnight",
+    "description": "A second-skin dress traced with soft contour lines.\n\nMade to order \u2014 printed and shipped just for you in 5\u20137 days, so we make less and waste less."
+  },
+  {
+    "name": "The Skater Skirt",
+    "slug": "skater-skirt",
+    "catalog_id": 314,
+    "price": 78,
+    "print": "solid",
+    "colorway": "navy",
+    "art": "solid-navy",
+    "city": "Lisbon",
+    "collections": [
+      "Women"
+    ],
+    "files": {
+      "primary": "skater-skirt-solid-navy.png"
+    },
+    "label": "solid \u00b7 navy",
+    "description": "A flippy skirt in deep marine. Clean and confident.\n\nMade to order \u2014 printed and shipped just for you in 5\u20137 days, so we make less and waste less."
+  },
+  {
+    "name": "The Beach Tank \u2014 Women",
+    "slug": "beach-tank-w",
+    "catalog_id": 202,
+    "price": 52,
+    "print": "solid",
+    "colorway": "ivory",
+    "art": "solid-ivory",
+    "city": "Bali",
+    "collections": [
+      "Women",
+      "New arrivals"
+    ],
+    "files": {
+      "primary": "beach-tank-w-solid-ivory.png"
+    },
+    "label": "solid \u00b7 ivory",
+    "description": "A relaxed tank in an elevated ivory. Throw it on, walk out.\n\nMade to order \u2014 printed and shipped just for you in 5\u20137 days, so we make less and waste less."
+  },
+  {
+    "name": "The One-Piece",
+    "slug": "one-piece",
+    "catalog_id": 272,
+    "price": 98,
+    "print": "terrazzo",
+    "colorway": "midnight",
+    "art": "terrazzo",
+    "city": "Tulum",
+    "collections": [
+      "Women",
+      "Swim",
+      "Swimwear",
+      "Most wanted"
+    ],
+    "files": {
+      "primary": "one-piece-terrazzo.png"
+    },
+    "label": "terrazzo \u00b7 midnight",
+    "description": "A sculpted one-piece in midnight terrazzo. Built to be seen.\n\nMade to order \u2014 printed and shipped just for you in 5\u20137 days, so we make less and waste less."
+  },
+  {
+    "name": "High-Waist Bikini Top",
+    "slug": "hw-bikini-top",
+    "catalog_id": 469,
+    "price": 48,
+    "print": "solid",
+    "colorway": "coral",
+    "art": "solid-coral",
+    "city": "Bali",
+    "collections": [
+      "Women",
+      "Swim",
+      "Swimwear"
+    ],
+    "files": {
+      "primary": "hw-bikini-top-solid-coral.png"
+    },
+    "label": "solid \u00b7 coral",
+    "description": "A padded high-waist set top in a coral pop.\n\nMade to order \u2014 printed and shipped just for you in 5\u20137 days, so we make less and waste less."
+  },
+  {
+    "name": "High-Waist Bikini Bottom",
+    "slug": "hw-bikini-btm",
+    "catalog_id": 470,
+    "price": 44,
+    "print": "solid",
+    "colorway": "coral",
+    "art": "solid-coral",
+    "city": "Bali",
+    "collections": [
+      "Women",
+      "Swim",
+      "Swimwear"
+    ],
+    "files": {
+      "primary": "hw-bikini-btm-solid-coral.png"
+    },
+    "label": "solid \u00b7 coral",
+    "description": "High-waisted, high-confidence \u2014 the matching bottom.\n\nMade to order \u2014 printed and shipped just for you in 5\u20137 days, so we make less and waste less."
+  },
+  {
+    "name": "String Bikini Top",
+    "slug": "string-bikini-top",
+    "catalog_id": 668,
+    "price": 46,
+    "print": "terrazzo",
+    "colorway": "marine",
+    "art": "terrazzo",
+    "city": "Tulum",
+    "collections": [
+      "Women",
+      "Swim",
+      "Swimwear"
+    ],
+    "files": {
+      "primary": "string-bikini-top-terrazzo.png"
+    },
+    "label": "terrazzo \u00b7 marine",
+    "description": "A padded string top in fine marine terrazzo.\n\nMade to order \u2014 printed and shipped just for you in 5\u20137 days, so we make less and waste less."
+  },
+  {
+    "name": "String Bikini Bottom",
+    "slug": "string-bikini-btm",
+    "catalog_id": 669,
+    "price": 42,
+    "print": "terrazzo",
+    "colorway": "marine",
+    "art": "terrazzo",
+    "city": "Tulum",
+    "collections": [
+      "Women",
+      "Swim",
+      "Swimwear"
+    ],
+    "files": {
+      "primary": "string-bikini-btm-terrazzo.png"
+    },
+    "label": "terrazzo \u00b7 marine",
+    "description": "The string bottom that finishes the set.\n\nMade to order \u2014 printed and shipped just for you in 5\u20137 days, so we make less and waste less."
+  },
+  {
+    "name": "The Beach Tank \u2014 Men",
+    "slug": "beach-tank-m",
+    "catalog_id": 276,
+    "price": 54,
+    "print": "solid",
+    "colorway": "navy",
+    "art": "solid-navy",
+    "city": "Bali",
+    "collections": [
+      "Men",
+      "New arrivals"
+    ],
+    "files": {
+      "primary": "beach-tank-m-solid-navy.png"
+    },
+    "label": "solid \u00b7 navy",
+    "description": "A soft, lived-in tank in deep navy.\n\nMade to order \u2014 printed and shipped just for you in 5\u20137 days, so we make less and waste less."
+  },
+  {
+    "name": "The Resort Short",
+    "slug": "resort-short",
+    "catalog_id": 330,
+    "price": 72,
+    "print": "contour",
+    "colorway": "verde",
+    "art": "contour",
+    "city": "Marrakech",
+    "collections": [
+      "Men"
+    ],
+    "files": {
+      "primary": "resort-short-contour.png"
+    },
+    "label": "contour \u00b7 verde",
+    "description": "A pull-on short traced in verde contour lines.\n\nMade to order \u2014 printed and shipped just for you in 5\u20137 days, so we make less and waste less."
+  },
+  {
+    "name": "The Swim Trunk",
+    "slug": "swim-trunk",
+    "catalog_id": 571,
+    "price": 78,
+    "print": "terrazzo",
+    "colorway": "marine",
+    "art": "terrazzo",
+    "city": "Bali",
+    "collections": [
+      "Men",
+      "Swim",
+      "Swimwear"
+    ],
+    "files": {
+      "primary": "swim-trunk-terrazzo.png"
+    },
+    "label": "terrazzo \u00b7 marine",
+    "description": "Recycled trunks in marine terrazzo. Quick to dry, slow to leave.\n\nMade to order \u2014 printed and shipped just for you in 5\u20137 days, so we make less and waste less."
+  },
+  {
+    "name": "The Bomber",
+    "slug": "bomber",
+    "catalog_id": 390,
+    "price": 148,
+    "print": "solid",
+    "colorway": "emerald",
+    "art": "solid-emerald",
+    "city": "Lisbon",
+    "collections": [
+      "Unisex",
+      "Most wanted"
+    ],
+    "files": {
+      "primary": "bomber-solid-emerald.png",
+      "sleeve": "bomber-solid-emerald-slv.png"
+    },
+    "label": "solid \u00b7 emerald",
+    "description": "A clean-lined bomber in deep emerald. The travel-day layer.\n\nMade to order \u2014 printed and shipped just for you in 5\u20137 days, so we make less and waste less."
+  },
+  {
+    "name": "The Windbreaker",
+    "slug": "windbreaker",
+    "catalog_id": 615,
+    "price": 138,
+    "print": "solid",
+    "colorway": "navy",
+    "art": "solid-navy",
+    "city": "Lisbon",
+    "collections": [
+      "Unisex"
+    ],
+    "files": {
+      "primary": "windbreaker-solid-navy.png"
+    },
+    "label": "solid \u00b7 navy",
+    "description": "A packable windbreaker in marine. For the unpredictable coast.\n\nMade to order \u2014 printed and shipped just for you in 5\u20137 days, so we make less and waste less."
+  },
+  {
+    "name": "The Lounge Hoodie",
+    "slug": "lounge-hoodie",
+    "catalog_id": 388,
+    "price": 98,
+    "print": "solid",
+    "colorway": "ivory",
+    "art": "solid-ivory",
+    "city": "Marrakech",
+    "collections": [
+      "Unisex"
+    ],
+    "files": {
+      "primary": "lounge-hoodie-solid-ivory.png"
+    },
+    "label": "solid \u00b7 ivory",
+    "description": "A heavyweight recycled hoodie in soft ivory.\n\nMade to order \u2014 printed and shipped just for you in 5\u20137 days, so we make less and waste less."
+  },
+  {
+    "name": "The Sweatpant",
+    "slug": "sweatpant",
+    "catalog_id": 400,
+    "price": 88,
+    "print": "solid",
+    "colorway": "navy",
+    "art": "solid-navy",
+    "city": "Marrakech",
+    "collections": [
+      "Unisex"
+    ],
+    "files": {
+      "primary": "sweatpant-solid-navy.png"
+    },
+    "label": "solid \u00b7 navy",
+    "description": "Recycled joggers in deep navy. The other half of the hoodie.\n\nMade to order \u2014 printed and shipped just for you in 5\u20137 days, so we make less and waste less."
+  },
+  {
+    "name": "The Bucket Hat",
+    "slug": "bucket-hat",
+    "catalog_id": 654,
+    "price": 42,
+    "print": "terrazzo",
+    "colorway": "midnight",
+    "art": "terrazzo",
+    "city": "Tulum",
+    "collections": [
+      "Accessories",
+      "Unisex"
+    ],
+    "files": {
+      "primary": "bucket-hat-terrazzo.png"
+    },
+    "label": "terrazzo \u00b7 midnight",
+    "description": "A reversible bucket hat in midnight terrazzo. Shade, sorted.\n\nMade to order \u2014 printed and shipped just for you in 5\u20137 days, so we make less and waste less."
+  },
+  {
+    "name": "The Beach Towel",
+    "slug": "beach-towel",
+    "catalog_id": 259,
+    "price": 58,
+    "print": "contour",
+    "colorway": "marine",
+    "art": "contour",
+    "city": "Bali",
+    "collections": [
+      "Accessories"
+    ],
+    "files": {
+      "primary": "beach-towel-contour.png"
+    },
+    "label": "contour \u00b7 marine",
+    "description": "An oversized towel traced in marine contour.\n\nMade to order \u2014 printed and shipped just for you in 5\u20137 days, so we make less and waste less."
+  },
+  {
+    "name": "The Beach Bag",
+    "slug": "beach-bag",
+    "catalog_id": 274,
+    "price": 54,
+    "print": "terrazzo",
+    "colorway": "verde",
+    "art": "terrazzo",
+    "city": "Marrakech",
+    "collections": [
+      "Accessories"
+    ],
+    "files": {
+      "primary": "beach-bag-terrazzo.png"
+    },
+    "label": "terrazzo \u00b7 verde",
+    "description": "A roomy tote with inner pocket, in verde terrazzo.\n\nMade to order \u2014 printed and shipped just for you in 5\u20137 days, so we make less and waste less."
+  },
+  {
+    "name": "The Tote",
+    "slug": "tote",
+    "catalog_id": 84,
+    "price": 34,
+    "print": "contour",
+    "colorway": "verde",
+    "art": "contour",
+    "city": "Lisbon",
+    "collections": [
+      "Accessories"
+    ],
+    "files": {
+      "primary": "tote-contour.png"
+    },
+    "label": "contour \u00b7 verde",
+    "description": "An everyday tote in verde contour. Market runs and gallery days.\n\nMade to order \u2014 printed and shipped just for you in 5\u20137 days, so we make less and waste less."
+  }
+]
