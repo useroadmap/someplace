@@ -4,7 +4,7 @@
     "slug": "resort-shirt",
     "catalog_id": 659,
     "price": 108,
-    "art": "sig",
+    "art": "flower",
     "gender": "Men",
     "collections": [
       "Men",
@@ -17,15 +17,15 @@
       "primary": "resort-shirt.png",
       "sleeve": "resort-shirt-slv.png"
     },
-    "label": "signature terrazzo \u00b7 midnight",
-    "description": "The flagship camp-collar shirt in our signature midnight terrazzo, printed head to hem.\n\nMade to order \u2014 printed and shipped just for you in 5\u20137 days, so we make less and waste less."
+    "label": "Modern Flower print",
+    "description": "The flagship camp-collar shirt in our signature Modern Flower print, head to hem.\n\nMade to order \u2014 printed and shipped just for you in 5\u20137 days, so we make less and waste less."
   },
   {
     "name": "The Camp Shirt",
     "slug": "camp-shirt",
     "catalog_id": 659,
     "price": 108,
-    "art": "solid-emerald",
+    "art": "solid-sky",
     "gender": "Unisex",
     "collections": [
       "Unisex",
@@ -35,15 +35,15 @@
       "primary": "camp-shirt.png",
       "sleeve": "camp-shirt-slv.png"
     },
-    "label": "solid emerald",
-    "description": "A boxy camp-collar shirt in deep emerald. Clean, grown-up, easy.\n\nMade to order \u2014 printed and shipped just for you in 5\u20137 days, so we make less and waste less."
+    "label": "solid sky",
+    "description": "A boxy camp-collar shirt in fresh sky blue. Clean and easy.\n\nMade to order \u2014 printed and shipped just for you in 5\u20137 days, so we make less and waste less."
   },
   {
     "name": "The Linen-look Shirt",
     "slug": "linen-shirt",
     "catalog_id": 659,
     "price": 98,
-    "art": "solid-ivory",
+    "art": "solid-butter",
     "gender": "Men",
     "collections": [
       "Men",
@@ -54,15 +54,15 @@
       "primary": "linen-shirt.png",
       "sleeve": "linen-shirt-slv.png"
     },
-    "label": "solid ivory",
-    "description": "An open-collar shirt in soft ivory \u2014 the off-duty staple.\n\nMade to order \u2014 printed and shipped just for you in 5\u20137 days, so we make less and waste less."
+    "label": "solid butter",
+    "description": "An open-collar shirt in warm butter. The off-duty staple.\n\nMade to order \u2014 printed and shipped just for you in 5\u20137 days, so we make less and waste less."
   },
   {
     "name": "The Beach Dress",
     "slug": "beach-dress",
     "catalog_id": 514,
     "price": 98,
-    "art": "sig",
+    "art": "flower",
     "gender": "Women",
     "collections": [
       "Women",
@@ -74,15 +74,15 @@
       "primary": "beach-dress.png",
       "sleeve": "beach-dress-slv.png"
     },
-    "label": "signature terrazzo \u00b7 midnight",
-    "description": "A breezy t-shirt dress in the signature midnight terrazzo. Sand to street.\n\nMade to order \u2014 printed and shipped just for you in 5\u20137 days, so we make less and waste less."
+    "label": "Modern Flower print",
+    "description": "A breezy t-shirt dress in the Modern Flower print. Sand to street.\n\nMade to order \u2014 printed and shipped just for you in 5\u20137 days, so we make less and waste less."
   },
   {
     "name": "The Bodycon",
     "slug": "bodycon",
     "catalog_id": 198,
     "price": 108,
-    "art": "solid-navy",
+    "art": "solid-coral",
     "gender": "Women",
     "collections": [
       "Women",
@@ -91,15 +91,15 @@
     "files": {
       "primary": "bodycon.png"
     },
-    "label": "solid navy",
-    "description": "A second-skin dress in deep navy. Quietly devastating.\n\nMade to order \u2014 printed and shipped just for you in 5\u20137 days, so we make less and waste less."
+    "label": "solid coral",
+    "description": "A second-skin dress in bright coral. Quietly loud.\n\nMade to order \u2014 printed and shipped just for you in 5\u20137 days, so we make less and waste less."
   },
   {
     "name": "The One-Piece",
     "slug": "one-piece",
     "catalog_id": 272,
     "price": 98,
-    "art": "solid-terracotta",
+    "art": "solid-navy",
     "gender": "Women",
     "collections": [
       "Women",
@@ -109,26 +109,27 @@
     "files": {
       "primary": "one-piece.png"
     },
-    "label": "solid terracotta",
-    "description": "A sculpted one-piece in warm terracotta. Built to be seen.\n\nMade to order \u2014 printed and shipped just for you in 5\u20137 days, so we make less and waste less."
+    "label": "solid navy",
+    "description": "A sculpted one-piece in deep navy. Built to be seen.\n\nMade to order \u2014 printed and shipped just for you in 5\u20137 days, so we make less and waste less."
   },
   {
     "name": "The Swim Trunk",
     "slug": "swim-trunk",
     "catalog_id": 571,
     "price": 78,
-    "art": "sig",
+    "art": "flower",
     "gender": "Men",
     "collections": [
       "Men",
       "Swim",
-      "Swimwear"
+      "Swimwear",
+      "New arrivals"
     ],
     "files": {
       "primary": "swim-trunk.png"
     },
-    "label": "signature terrazzo \u00b7 midnight",
-    "description": "Recycled trunks in the signature midnight terrazzo. Quick to dry, slow to leave.\n\nMade to order \u2014 printed and shipped just for you in 5\u20137 days, so we make less and waste less."
+    "label": "Modern Flower print",
+    "description": "Recycled trunks in the Modern Flower print. Quick to dry, slow to leave.\n\nMade to order \u2014 printed and shipped just for you in 5\u20137 days, so we make less and waste less."
   },
   {
     "name": "The Resort Short",
@@ -151,7 +152,7 @@
     "slug": "bomber",
     "catalog_id": 390,
     "price": 148,
-    "art": "solid-emerald",
+    "art": "solid-green",
     "gender": "Unisex",
     "collections": [
       "Unisex",
@@ -161,15 +162,15 @@
       "primary": "bomber.png",
       "sleeve": "bomber-slv.png"
     },
-    "label": "solid emerald",
-    "description": "A clean-lined bomber in deep emerald. The travel-day layer.\n\nMade to order \u2014 printed and shipped just for you in 5\u20137 days, so we make less and waste less."
+    "label": "solid green",
+    "description": "A clean-lined bomber in grass green. The travel-day layer.\n\nMade to order \u2014 printed and shipped just for you in 5\u20137 days, so we make less and waste less."
   },
   {
     "name": "The Lounge Hoodie",
     "slug": "lounge-hoodie",
     "catalog_id": 388,
     "price": 98,
-    "art": "solid-ivory",
+    "art": "solid-cream",
     "gender": "Unisex",
     "collections": [
       "Unisex"
@@ -177,15 +178,15 @@
     "files": {
       "primary": "lounge-hoodie.png"
     },
-    "label": "solid ivory",
-    "description": "A heavyweight recycled hoodie in soft ivory.\n\nMade to order \u2014 printed and shipped just for you in 5\u20137 days, so we make less and waste less."
+    "label": "solid cream",
+    "description": "A heavyweight recycled hoodie in soft cream.\n\nMade to order \u2014 printed and shipped just for you in 5\u20137 days, so we make less and waste less."
   },
   {
     "name": "The Bucket Hat",
     "slug": "bucket-hat",
     "catalog_id": 654,
     "price": 42,
-    "art": "sig",
+    "art": "flower",
     "gender": "Unisex",
     "collections": [
       "Accessories",
@@ -194,15 +195,15 @@
     "files": {
       "primary": "bucket-hat.png"
     },
-    "label": "signature terrazzo \u00b7 midnight",
-    "description": "A reversible bucket hat in the signature midnight terrazzo.\n\nMade to order \u2014 printed and shipped just for you in 5\u20137 days, so we make less and waste less."
+    "label": "Modern Flower print",
+    "description": "A reversible bucket hat in the Modern Flower print.\n\nMade to order \u2014 printed and shipped just for you in 5\u20137 days, so we make less and waste less."
   },
   {
     "name": "The Tote",
     "slug": "tote",
     "catalog_id": 84,
     "price": 34,
-    "art": "solid-navy",
+    "art": "flower",
     "gender": "Unisex",
     "collections": [
       "Accessories"
@@ -210,7 +211,7 @@
     "files": {
       "primary": "tote.png"
     },
-    "label": "solid navy",
-    "description": "An everyday tote in deep navy. Market runs and gallery days.\n\nMade to order \u2014 printed and shipped just for you in 5\u20137 days, so we make less and waste less."
+    "label": "Modern Flower print",
+    "description": "An everyday tote in the Modern Flower print. Market runs and gallery days.\n\nMade to order \u2014 printed and shipped just for you in 5\u20137 days, so we make less and waste less."
   }
 ]
