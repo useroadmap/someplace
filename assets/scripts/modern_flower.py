@@ -57,9 +57,7 @@ def flower_tile(ground="cream"):
         for i in range(gx):
             cx = cw*(i+0.5) + (r()-0.5)*cw*0.5
             cy = ch*(j+0.5) + (r()-0.5)*ch*0.5
-            flower(cx, cy, (0.85+r()*0.6)*SS, PETALS[int(r()*len(PETALS))], CENTERS[int(r()*len(CENTERS))])
-    for _ in range(46):
-        circle(r()*n, r()*n, (6+r()*6)*SS, "butter" if r() > 0.5 else "sky")
+            flower(cx, cy, (1.0+r()*0.7)*SS, PETALS[int(r()*len(PETALS))], CENTERS[int(r()*len(CENTERS))])
     return img.resize((TILE, TILE), Image.LANCZOS)
 
 
@@ -79,27 +77,24 @@ def clouds_tile(ground_hex="#8fc2d6"):
     white = _h("#ffffff")
 
     def cloud(cx, cy, scale):
-        R = 42*scale*SS
-        puffs = [(-1.9, 0.62), (-1.0, 0.95), (0.0, 1.12), (1.0, 0.9), (1.9, 0.6)]
+        R = 92*scale*SS                      # bigger, bolder clouds
+        puffs = [(-1.95, 0.6), (-1.05, 1.0), (0.0, 1.25), (1.05, 0.98), (1.95, 0.58)]
         for ox, rr in puffs:
             rad = R*rr
-            circle(cx+ox*R, cy - rad + R*1.12, rad, white)  # bottoms roughly aligned
-        # flatten the base
-        d.rectangle([cx-2.3*R, cy+R*0.12-R*0.5, cx+2.3*R, cy+R*0.12], fill=white)
+            circle(cx+ox*R, cy - rad + R*1.2, rad, white)   # bottoms roughly aligned
+        d.rectangle([cx-2.4*R, cy+R*0.2-R*0.6, cx+2.4*R, cy+R*0.2], fill=white)
 
-    # little sun
+    # a couple of suns (representational, not abstract)
     sun_c = _h(PALETTE["butter"])
-    sx, sy, sr = n*0.8, n*0.18, 26*SS
-    for i in range(12):
-        a = i*2*math.pi/12
-        circle(sx+math.cos(a)*(sr+14*SS), sy+math.sin(a)*(sr+14*SS), 5*SS, sun_c)
-    circle(sx, sy, sr, sun_c)
+    for sx, sy, sr in [(n*0.82, n*0.16, 40*SS), (n*0.16, n*0.62, 32*SS)]:
+        for i in range(12):
+            a = i*2*math.pi/12
+            circle(sx+math.cos(a)*(sr+18*SS), sy+math.sin(a)*(sr+18*SS), 7*SS, sun_c)
+        circle(sx, sy, sr, sun_c)
 
-    for cy0, sc in [(n*0.20, 0.9), (n*0.46, 1.15), (n*0.72, 0.85), (n*0.95, 1.0)]:
-        cx0 = r()*n
+    # big clouds, well spaced, seamless
+    for cx0, cy0, sc in [(n*0.30, n*0.26, 1.05), (n*0.74, n*0.52, 1.2), (n*0.22, n*0.86, 0.95)]:
         cloud(cx0, cy0, sc)
-    for _ in range(28):
-        circle(r()*n, r()*n, 4*SS, white)
     return img.resize((TILE, TILE), Image.LANCZOS)
 
 
