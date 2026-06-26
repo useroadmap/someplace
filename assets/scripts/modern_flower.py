@@ -51,13 +51,14 @@ def flower_tile(ground="cream"):
             circle(cx+math.cos(a)*ring, cy+math.sin(a)*ring, pr, pc)
         circle(cx, cy, 22*scale, cc)
 
-    gx, gy = 4, 4
+    # calmer, less busy — fewer flowers, more negative space
+    gx, gy = 3, 3
     cw, ch = n/gx, n/gy
     for j in range(gy):
         for i in range(gx):
-            cx = cw*(i+0.5) + (r()-0.5)*cw*0.5
-            cy = ch*(j+0.5) + (r()-0.5)*ch*0.5
-            flower(cx, cy, (1.0+r()*0.7)*SS, PETALS[int(r()*len(PETALS))], CENTERS[int(r()*len(CENTERS))])
+            cx = cw*(i+0.5) + (r()-0.5)*cw*0.34
+            cy = ch*(j+0.5) + (r()-0.5)*ch*0.34
+            flower(cx, cy, (1.05+r()*0.45)*SS, PETALS[int(r()*len(PETALS))], CENTERS[int(r()*len(CENTERS))])
     return img.resize((TILE, TILE), Image.LANCZOS)
 
 
