@@ -17,7 +17,7 @@ SLEEVE = {659:(5700,3000), 514:(5100,1950), 390:(7950,2700)}
 # name, slug, cid, price, art, gender, collections
 CAP = [
  ("The Resort Shirt","resort-shirt",659,108,"flower","Men",["Men","Unisex","Shirts","New arrivals","Most wanted"]),
- ("The Camp Shirt","camp-shirt",659,108,"solid-sky","Unisex",["Unisex","Shirts"]),
+ ("The Camp Shirt","camp-shirt",659,108,"clouds","Unisex",["Unisex","Shirts","New arrivals"]),
  ("The Linen-look Shirt","linen-shirt",659,98,"solid-butter","Men",["Men","Unisex","Shirts"]),
  ("The Beach Dress","beach-dress",514,98,"flower","Women",["Women","Dresses","New arrivals","Most wanted"]),
  ("The Bodycon","bodycon",198,108,"solid-coral","Women",["Women","Dresses"]),
@@ -31,7 +31,7 @@ CAP = [
 ]
 HOOKS = {
  "resort-shirt":"The flagship camp-collar shirt in our signature Modern Flower print, head to hem.",
- "camp-shirt":"A boxy camp-collar shirt in fresh sky blue. Clean and easy.",
+ "camp-shirt":"A boxy camp-collar shirt in our Clouds print — head-in-the-clouds, head to hem.",
  "linen-shirt":"An open-collar shirt in warm butter. The off-duty staple.",
  "beach-dress":"A breezy t-shirt dress in the Modern Flower print. Sand to street.",
  "bodycon":"A second-skin dress in bright coral. Quietly loud.",
@@ -53,7 +53,9 @@ def manifest():
         files = {"primary": f"{slug}.png"}
         if cid in SLEEVE:
             files["sleeve"] = f"{slug}-slv.png"
-        label = "Modern Flower print" if art == "flower" else art.replace("solid-", "solid ")
+        label = ("Modern Flower print" if art == "flower"
+                 else "Clouds print" if art == "clouds"
+                 else art.replace("solid-", "solid "))
         out.append({"name":name,"slug":slug,"catalog_id":cid,"price":price,"art":art,
                     "gender":gender,"collections":cols,"files":files,"label":label,
                     "description":f"{HOOKS.get(slug,'')}\n\n{MTO}"})

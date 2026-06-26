@@ -25,18 +25,19 @@
     "slug": "camp-shirt",
     "catalog_id": 659,
     "price": 108,
-    "art": "solid-sky",
+    "art": "clouds",
     "gender": "Unisex",
     "collections": [
       "Unisex",
-      "Shirts"
+      "Shirts",
+      "New arrivals"
     ],
     "files": {
       "primary": "camp-shirt.png",
       "sleeve": "camp-shirt-slv.png"
     },
-    "label": "solid sky",
-    "description": "A boxy camp-collar shirt in fresh sky blue. Clean and easy.\n\nMade to order \u2014 printed and shipped just for you in 5\u20137 days, so we make less and waste less."
+    "label": "Clouds print",
+    "description": "A boxy camp-collar shirt in our Clouds print \u2014 head-in-the-clouds, head to hem.\n\nMade to order \u2014 printed and shipped just for you in 5\u20137 days, so we make less and waste less."
   },
   {
     "name": "The Linen-look Shirt",

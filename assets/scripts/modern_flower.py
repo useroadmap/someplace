@@ -63,9 +63,57 @@ def flower_tile(ground="cream"):
     return img.resize((TILE, TILE), Image.LANCZOS)
 
 
+def clouds_tile(ground_hex="#8fc2d6"):
+    """Flat puffy clouds on a fresh sky, with a little sun and confetti dots."""
+    n = TILE * SS
+    img = Image.new("RGB", (n, n), _h(ground_hex))
+    d = ImageDraw.Draw(img)
+    r = _rng(5)
+
+    def circle(cx, cy, rad, col):
+        for dx in (-n, 0, n):
+            for dy in (-n, 0, n):
+                if -rad < cx+dx < n+rad and -rad < cy+dy < n+rad:
+                    d.ellipse([cx+dx-rad, cy+dy-rad, cx+dx+rad, cy+dy+rad], fill=col)
+
+    white = _h("#ffffff")
+
+    def cloud(cx, cy, scale):
+        R = 42*scale*SS
+        puffs = [(-1.9, 0.62), (-1.0, 0.95), (0.0, 1.12), (1.0, 0.9), (1.9, 0.6)]
+        for ox, rr in puffs:
+            rad = R*rr
+            circle(cx+ox*R, cy - rad + R*1.12, rad, white)  # bottoms roughly aligned
+        # flatten the base
+        d.rectangle([cx-2.3*R, cy+R*0.12-R*0.5, cx+2.3*R, cy+R*0.12], fill=white)
+
+    # little sun
+    sun_c = _h(PALETTE["butter"])
+    sx, sy, sr = n*0.8, n*0.18, 26*SS
+    for i in range(12):
+        a = i*2*math.pi/12
+        circle(sx+math.cos(a)*(sr+14*SS), sy+math.sin(a)*(sr+14*SS), 5*SS, sun_c)
+    circle(sx, sy, sr, sun_c)
+
+    for cy0, sc in [(n*0.20, 0.9), (n*0.46, 1.15), (n*0.72, 0.85), (n*0.95, 1.0)]:
+        cx0 = r()*n
+        cloud(cx0, cy0, sc)
+    for _ in range(28):
+        circle(r()*n, r()*n, 4*SS, white)
+    return img.resize((TILE, TILE), Image.LANCZOS)
+
+
 def build(art, w, h, out):
     if art in SOLIDS:
         Image.new("RGB", (w, h), _h(SOLIDS[art])).save(out, "PNG"); return out
+    if art == "clouds" or art.startswith("clouds-"):
+        gh = "#8fc2d6"
+        tile = clouds_tile(gh)
+        tw, th = tile.size; canvas = Image.new("RGB", (w, h))
+        for y in range(0, h, th):
+            for x in range(0, w, tw):
+                canvas.paste(tile, (x, y))
+        canvas.save(out, "PNG"); return out
     ground = "cream"
     if art.startswith("flower-"):
         ground = art.split("-", 1)[1]
